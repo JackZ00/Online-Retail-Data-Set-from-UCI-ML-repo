@@ -51,7 +51,7 @@ Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail indu
 ## Tool：
 MySQL and Tableau
 
-## Question
+## Goal
 1. Order dimension: What is the average order value and the average basket size? What is the relationship between order value and the number of items in each order?
 2. Customer dimension: What is the average customer spend? What is the relationship between customer spend and the number of items purchased?
 3. Product dimension: What is the price range of the products sold? Which price range sells the most products? Which price range generates the most revenue?
@@ -59,7 +59,7 @@ MySQL and Tableau
 5. Region dimension: Which countries do customers primarily come from? Which country is the main overseas market? Which country has the highest average customer spend?
 6. Customer behavior: What is the customer lifecycle and retention rate?
 
-## Answer
+## Summery
 Order Dimension:
 There were a total of 19,960 valid orders with an average order value of 533.17 GBP and an associated items per order of around 279. Wholesale orders dominated, with significant variation in purchasing power among customers. Overall, the transaction amount and the number of items purchased were positively correlated.
 
