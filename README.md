@@ -58,3 +58,28 @@ MySQL and Tableau
 4. Time dimension: What is the trend in sales by month/day? What factors might be affecting sales?
 5. Region dimension: Which countries do customers primarily come from? Which country is the main overseas market? Which country has the highest average customer spend?
 6. Customer behavior: What is the customer lifecycle and retention rate?
+
+## Answer
+Order Dimension:
+There were a total of 19,960 valid orders with an average order value of 533.17 GBP and an associated items per order of around 279. Wholesale orders dominated, with significant variation in purchasing power among customers. Overall, the transaction amount and the number of items purchased were positively correlated.
+
+Customer Dimension:
+The average customer spend was 2,049 GBP, with significant differences in purchasing power among customers. The customer base was healthy, with the amount spent on purchases positively correlated with the number of items bought, and exhibited stronger patterns than the order dimension.
+
+Product Dimension:
+The unit price of products exhibited fluctuations, primarily focused on products with low prices, with most items priced between 1-2 GBP. Products priced below 5 GBP were the most popular among customers and accounted for the majority of sales revenue. Although high-priced products had high unit prices, they had low sales volumes and did not contribute significantly to sales revenue. It is recommended that the procurement department consider selecting more products priced under 10 GBP to further expand the low-priced category range.
+
+Time Dimension:
+The number of orders, sales volumes, and revenue followed similar trends and peaked in September to November 2011. As the main products were gifts, this peak period may have been influenced by holidays such as Halloween (November 1st) and Christmas (December 25th), or by "Black Friday" (the fourth Thursday in November). The sales revenue was mainly influenced by the changes in sales volume due to the low unit price and price concentration.
+
+Geographic Dimension:
+The vast majority of customers were from the UK, and most of the foreign income was also from neighboring countries. This pattern roughly followed a radius emanating from the UK, which may have been influenced by shipping costs, language, and the attenuation of influence with distance. It is recommended to increase overseas publicity and improve website adaptation for multiple languages.
+
+Lifecycle:
+The average lifecycle was 130 days, and the distribution of lifecycles was polarized. The average lifecycle of customers who made two or more purchases was 203 days, significantly higher than the overall average of 103 days. It is recommended to pay more attention to the customer experience of the first purchase and improve it through methods such as service evaluations and customer service inquiries. More effort should also be made to encourage customers to make repeat purchases, such as offering time-limited coupons.
+
+Retention:
+Customer purchases were not high-frequency behavior, but retained loyal customers were highly loyal. Customers who only made their first purchase accounted for 37.5% of the total customer base. Improving the retention rate of this group would lead to significant revenue growth.
+
+Purchase Cycle:
+Most retained customers had purchase cycles between 15-70 days. It is recommended to send out information about promotional activities every 30 days to encourage customers to make repeat purchases.
