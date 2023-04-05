@@ -1,8 +1,7 @@
 # [Online-Retail-Data-Set-from-UCI-ML-repo](https://archive.ics.uci.edu/ml/datasets/online+retail#)
 
-
-## About Dataset
-a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
+## Data Set Information:
+This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
 ## Content
 * Data Set Characteristics: Multivariate, Sequential, Time-Series
@@ -23,31 +22,6 @@ a transnational data set which contains all the transactions occurring between 0
 
 * Number of Web Hits: 159409
 
-## Source
-Dr Daqing Chen, Director: Public Analytics group. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.
-
-## Data Set Information:
-This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
-
-## Attribute Information:
-InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
-StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
-Description: Product (item) name. Nominal.
-Quantity: The quantities of each product (item) per transaction. Numeric.
-InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
-UnitPrice: Unit price. Numeric, Product price per unit in sterling.
-CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
-Country: Country name. Nominal, the name of the country where each customer resides.
-
-## Relevant Papers:
-The evolution of direct, data and digital marketing, Richard Webber, Journal of Direct, Data and Digital Marketing Practice (2013) 14, 291â€“309.
-Clustering Experiments on Big Transaction Data for Market Segmentation,
-Ashishkumar Singh, Grace Rumantir, Annie South, Blair Bethwaite, Proceedings of the 2014 International Conference on Big Data Science and Computing.
-A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Defu Zhang, XiangXiang Zeng, Stephen C.H. Leung c, Tao Li, Expert Systems with Applications, 42 (2015) 3357â€“3367.
-
-## Citation Request:
-Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
-
 ## Tool：
 MySQL and Tableau
 
@@ -59,7 +33,7 @@ MySQL and Tableau
 5. Region dimension: Which countries do customers primarily come from? Which country is the main overseas market? Which country has the highest average customer spend?
 6. Customer behavior: What is the customer lifecycle and retention rate?
 
-## Summery
+## Result
 Order Dimension:
 There were a total of 19,960 valid orders with an average order value of 533.17 GBP and an associated items per order of around 279. Wholesale orders dominated, with significant variation in purchasing power among customers. Overall, the transaction amount and the number of items purchased were positively correlated.
 
@@ -83,3 +57,26 @@ Customer purchases were not high-frequency behavior, but retained loyal customer
 
 Purchase Cycle:
 Most retained customers had purchase cycles between 15-70 days. It is recommended to send out information about promotional activities every 30 days to encourage customers to make repeat purchases.
+
+
+## Source
+Dr Daqing Chen, Director: Public Analytics group. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.
+
+## Attribute Information:
+InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+Description: Product (item) name. Nominal.
+Quantity: The quantities of each product (item) per transaction. Numeric.
+InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+Country: Country name. Nominal, the name of the country where each customer resides.
+
+## Relevant Papers:
+The evolution of direct, data and digital marketing, Richard Webber, Journal of Direct, Data and Digital Marketing Practice (2013) 14, 291â€“309.
+Clustering Experiments on Big Transaction Data for Market Segmentation,
+Ashishkumar Singh, Grace Rumantir, Annie South, Blair Bethwaite, Proceedings of the 2014 International Conference on Big Data Science and Computing.
+A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Defu Zhang, XiangXiang Zeng, Stephen C.H. Leung c, Tao Li, Expert Systems with Applications, 42 (2015) 3357â€“3367.
+
+## Citation Request:
+Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
