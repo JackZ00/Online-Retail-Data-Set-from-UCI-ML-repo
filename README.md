@@ -48,8 +48,13 @@ A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Def
 ## Citation Request:
 Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
 
-## Image credit:
-Photo by Valentino Funghi on Unsplash
+## Tool：
+MySQL and Tableau
 
-## Inspiration
-Your data will be in front of the world's largest data science community. What questions do you want to see answered?
+## Question
+1. Order dimension: What is the average order value and the average basket size? What is the relationship between order value and the number of items in each order?
+2. Customer dimension: What is the average customer spend? What is the relationship between customer spend and the number of items purchased?
+3. Product dimension: What is the price range of the products sold? Which price range sells the most products? Which price range generates the most revenue?
+4. Time dimension: What is the trend in sales by month/day? What factors might be affecting sales?
+5. Region dimension: Which countries do customers primarily come from? Which country is the main overseas market? Which country has the highest average customer spend?
+6. Customer behavior: What is the customer lifecycle and retention rate?
