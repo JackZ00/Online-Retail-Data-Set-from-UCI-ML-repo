@@ -22,7 +22,7 @@ This is a transnational data set which contains all the transactions occurring b
 
 * Number of Web Hits: 159409
 
-## Tool：
+## Tool
 Python
 
 ## Goal
