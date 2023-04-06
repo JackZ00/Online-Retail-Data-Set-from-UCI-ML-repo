@@ -23,7 +23,7 @@ This is a transnational data set which contains all the transactions occurring b
 * Number of Web Hits: 159409
 
 ## Tool：
-MySQL and Tableau
+Python
 
 ## Goal
 1. Order dimension: What is the average order value and the average basket size? What is the relationship between order value and the number of items in each order?
